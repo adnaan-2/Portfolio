@@ -40,6 +40,7 @@ export default function HeroSection() {
               alt="Profile"
               width={600}
               height={600}
+              unoptimized
               className="rounded-xl w-full h-auto relative z-10"
               priority
             />
