@@ -36,7 +36,7 @@ export default function HeroSection() {
         <div className="md:w-1/2 relative group order-2 md:order-1">
           <div className="relative before:absolute before:-inset-2 before:border-2 before:border-yellow-400 before:rounded-xl before:transition-all before:duration-300 hover:before:-inset-4">
             <Image
-              src="/me.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/me.png`}
               alt="Profile"
               width={600}
               height={600}
