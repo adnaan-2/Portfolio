@@ -31,10 +31,9 @@ export default function ContactSection() {
       setName("");
       setEmail("");
       setMessage("");
-      setTimeout(() => setSuccess(false), 3000);
-    } catch (err) {
+    } catch (error) {
+      console.error("Email sending failed:", error);
       setError(true);
-      setTimeout(() => setError(false), 3000);
     } finally {
       setLoading(false);
     }
@@ -83,7 +82,7 @@ export default function ContactSection() {
             ) : (
               <>
                 <Mail className="w-5 h-5" />
-                Send Message
+                Send Me Message
               </>
             )}
           </button>
