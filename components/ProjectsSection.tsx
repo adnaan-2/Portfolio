@@ -77,8 +77,11 @@ export default function ProjectsSection() {
                       src={project.image}
                       alt={project.title}
                       fill
-                      className="object-contain" // Changed from object-cover to object-contain
-                      style={{ objectFit: "contain" }} // Added explicit style
+                      className="object-contain"
+                      style={{ objectFit: "contain" }}
+                      unoptimized // Add this for static export
+                      priority={index === 0} // Optimize priority loading
+                      sizes="(max-width: 768px) 100vw, 50vw" // Add proper sizes
                     />
                   </div>
 
