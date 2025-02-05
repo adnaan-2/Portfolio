@@ -1,6 +1,6 @@
 // components/HeroSection.tsx
 import { Github, Linkedin, Mail } from "lucide-react";
-import Image from "next/image";
+import Image from 'next/image'
 
 export default function HeroSection() {
   return (
@@ -19,7 +19,10 @@ export default function HeroSection() {
           <div className="flex justify-center gap-8 ">
             {[
               { Icon: Github, href: "https://github.com/adnaan-2" },
-              {Icon: Linkedin,href: "https://www.linkedin.com/in/adnankhalil099/",},
+              {
+                Icon: Linkedin,
+                href: "https://www.linkedin.com/in/adnankhalil099/",
+              },
               { Icon: Mail, href: "mailto:adnanmughal0342@gmail.com" },
             ].map((link, index) => (
               <a
@@ -36,13 +39,10 @@ export default function HeroSection() {
         <div className="md:w-1/2 relative group order-2 md:order-1">
           <div className="relative before:absolute before:-inset-2 before:border-2 before:border-yellow-400 before:rounded-xl before:transition-all before:duration-300 hover:before:-inset-4">
             <Image
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/me.png`}
-              alt="Profile"
-              width={600}
-              height={600}
-              unoptimized
-              className="rounded-xl w-full h-auto relative z-10"
-              priority
+              src="/images/me.png"
+              alt="me"
+              width={500}
+              height={300}
             />
           </div>
           <div className="absolute -right-8 -bottom-8 w-32 h-32 bg-yellow-400/20 rounded-xl -z-10 group-hover:w-36 group-hover:h-36 transition-all" />

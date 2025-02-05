@@ -41,7 +41,7 @@ export default function AboutSection() {
                   "Sockets",
                   "SQL",
                   "Figma",
-                  "AWS",
+                  "WordPress",
                 ].map((tech) => (
                   <div
                     key={tech}

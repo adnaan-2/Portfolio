@@ -9,35 +9,35 @@ const projects = [
     title: "Online Shopping",
     description: "Modern e-commerce solution with Next.js and Stripe integration",
     tech: ["React", "Next.js", "Stripe", "Tailwind CSS"],
-    image: "/shop.jpg",
+    image: "/images/shop.jpg",
     link: "https://github.com/adnaan-2/react-shopping-site"
   },
   {
     title: "Jarvis AI Assistant",
     description: "AI that will assist you",
     tech: ["React Native", "Node.js", "MongoDB", "OpenAI"],
-    image: "/jarvis.jpg",
+    image: "/images/jarvis.jpg",
     link: "https://github.com/adnaan-2/Jarvis-AI-bot-"
 },
   {
     title: "Employee Activity Tracker Dashboard",
     description: "Analytics dashboard for Employee Tracking management",
     tech: ["React", "Python", "MongoDB", "GraphQL"],
-    image: "/activity.jpg",
+    image: "/images/activity.jpg",
     link: "https://github.com/adnaan-2/Employees-Activity-Tracker"
   },
   {
     title: "Messeging App",
     description: "Secure Messeging App",
     tech: ["React Native", "Node.js", "MongoDB", "Socket"],
-    image: "/messege.jpg",
+    image: "/images/messege.jpg",
     link: "https://github.com/adnaan-2/real-time-chat-application"
   },
   {
     title: "Object Tracker",
     description: "Precise and accurate tracking app",
     tech: ["React Native", "Node.js", "MongoDB", "Socket"],
-    image: "/tracker.jpg",
+    image: "/images/tracker.jpg",
     link: "https://github.com/adnaan-2/real-time-tracking-backend-project"
   },
 
